@@ -1,0 +1,317 @@
+/* REGRAS */
+*{
+    margin: 0px;
+}
+
+body{
+    height: 100%;
+}
+
+hr{
+    height: 8px;
+    background-color: black;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+
+
+/* IDS */
+#cabecalho{
+    background-image: linear-gradient(to right, #9c7553, #bcb0a5);
+    padding: 5px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    width: 100%;
+    display: inline-block;
+}
+#cabecalho a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+}
+#cabecalho a:hover{
+    background-color: #836a54;
+    text-decoration: underline;
+    border-radius: 30%;
+}
+
+#cabecalho1{
+    float: left;
+    margin-left: 1vw;
+    margin-right: 7vw;
+}
+
+#cabecalho2{
+    float: right;
+    margin-right: 1vw;
+    margin-left: 7vw;
+}
+
+#bota_borda{
+    background-image: linear-gradient(to left, #ae9580, #aa8f78);
+    width: 10vw;
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5vh;
+    border-radius: 0 0 100px 100px;
+    align-items: center;
+    text-align: center;
+    text-shadow: rgb(99, 99, 99) 0 5px 10px;
+}
+
+#rodape{
+    background-color: #90643d;
+    text-align: center;
+    padding: 1vh 0 1vh 0;
+}
+
+#caixa_sobre{
+    padding: 4.1vh;
+    margin: 38vh 0 0 20vh;
+    max-width: 60vh;
+    max-height: 87.7vh;
+    height: 88vh;
+    background-color: #DEAC80;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    border-top: solid black 1vh;
+    box-shadow: black 0 5px 10px;
+}
+
+#fundo_imagem{
+    background-image: url(../imagens/hermes_fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    height: 135vh;
+}
+
+#fundo_listas{
+    background-image: linear-gradient(to bottom, #FDE5D0, #aa8f78);
+    background-size: cover;
+    height: 200vh;
+}
+
+#fundo_degrade{
+    background-image: linear-gradient(to right, #f5d3b5, #ffffff);
+    background-size: cover;
+    height: 140vh;
+}
+#fundo_degrade h2{
+    padding: 9px;
+    font-size: 2.5em;
+    background-color: #9c7553;
+    border-bottom: black solid 3px;
+}
+
+#fundo_logo{
+    padding: 30px;
+    background-color: #9c7553;
+    border-radius: 100%;
+    margin-top: 30vh;
+    margin-left: 20vw;
+    box-shadow: black 0 5px 10px;
+}
+
+#caixa_servicos{
+    background-color: #f5d3b5;
+    width: 25vw;
+    margin-left: 10vw;
+    margin-top: 30vh;
+    float: right;
+    box-shadow: black 0 5px 10px;
+    text-align: center;
+}
+#caixa_servicos span{
+    font-size: 1.4em;
+    margin: 15px;
+}
+#caixa_servicos b{
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+#caixa_contato{
+    padding: 4.1vh;
+    margin: 38vh 0 0 22%;
+    max-width: 60vh;
+    max-height: 87.7vh;
+    background-color: #DEAC80;
+    border-top: black solid 3px;
+    box-shadow: black 0 5px 10px;
+}
+#caixa_contato table{
+    border: 0;
+}
+
+#foto_contato{
+    margin: 38vh 0 0 22%;
+    border-top: black solid 3px;
+    border-left: black solid 3px;
+    border-bottom-right-radius: 100px;
+    box-shadow: black 0 5px 10px;
+}
+
+#fundo_galeria{
+    background-image: linear-gradient(to top, #f5b67f, #ffffff);
+    background-size: cover;
+    height: 200vh;
+}
+
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: flex-start;
+}
+#galeria img{
+    padding: 5px;
+    width: 300px;
+    height: auto;
+    background-color: #f5d3b5;
+    border-top: black solid 5px;
+    box-shadow: black 0 5px 10px;
+    margin: 5vh 5vw 0 5vw;
+}
+#galeria img:hover{
+    border: white solid 6px;
+}
+
+#margin_galeria{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+/* CLASSES */
+.display_flex{
+    display: flex;
+}
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
+.margin_right18{
+    margin-right: 18vh;
+}
+
+.margin_left18{
+    margin-left: 18vh;
+}
+
+
+.caixa_historia{
+    padding: 1.1vh;
+    padding-bottom: 9vh;
+    margin: 16.6vh 33.2vh 0 33.2vh;
+    background-color: #DEAC80;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    border-top: solid black 5px;
+    line-height: 2em;
+    box-shadow: black 0 5px 10px;
+}
+
+.img1_historia{
+    float: left;
+    margin: 10px 30px 10px 30px;
+}
+.img2_historia{
+    float: right;
+    margin: 10px 30px 10px 0px;
+}
+
+.cor_fundo{
+    background-color: #FDE5D0;
+    background-size: cover;
+    height: fit-content
+}
+
+.titulo_lista{
+    width: fit-content;
+    align-content: center;
+    padding: 15px;
+    background-color: #9c7553;
+    border-radius: 50px;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 45vh auto 0 auto;
+    text-align: center;
+    justify-content: center;
+    box-shadow: black 0 5px 10px;
+    text-shadow: rgb(99, 99, 99) 0 5px 10px;
+}
+.titulo_lista:hover{
+    border: white solid 6px;
+}
+
+.caixa_lista{
+    margin: 15vh auto 0 auto;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-top: black 5px solid;
+    background-color: #DEAC80;
+    box-shadow: black 0 5px 10px;
+    display: grid;
+}
+
+.item{
+    margin: 5vh 0 5vh 0;
+    box-shadow: black 0 5px 10px;
+    height: fit-content;
+    width: 100%;
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item h2{
+    font-size: 2.5em;
+}
+
+.desc_item{
+    font-size: 1.5em;
+    margin-left: 15vw;
+    margin-right: 5vw;
+    width: 20vw;
+    height: fit-content;
+    float: right;
+}
+/*.caixa_listas{
+    padding: 1.1vh;
+    margin-left: 22%;
+    margin-top: 25vh;
+    float: left;
+    background-color: #DEAC80;
+    border-top: solid black 0.6vh;
+    height: 70vh;
+    width: 30vh;
+    box-shadow: black 0 5px 10px;
+}
+.caixa_listas li{
+    font-size: 1.4em;
+}
+.caixa_listas h3{
+    font-size: 1.8em;
+}*/
